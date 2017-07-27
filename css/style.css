@@ -1,0 +1,71 @@
+/*------------------------- Layout styles ------------------------*/
+body {
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+a {
+	outline:none;
+}
+a img {
+	border:0;
+	display:block;
+}
+.background {
+}
+.page {
+	width:960px;
+	margin:0 auto;
+	padding:97px 0 35px;
+}
+
+
+/*------------------------- Body ---------------------------*/
+
+
+#myTable {
+    border-collapse: collapse; 
+    width: 100%; 
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; 
+}
+
+#myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; 
+}
+
+#myTable tr {
+	
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+	
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+}
+    /* center image */
+img  {
+    display: block;
+    margin: 0 auto;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*------------------------- Search bar ---------------------------*/
+
+#myInput {
+    background-image: url('../img/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; 
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+}
